@@ -3,7 +3,7 @@ package CreationalDP.Abstract_FactoryDP;
 public class ShapeFactory extends AbstractFactory {
 
     @Override
-    public Shape getShape(String shapeType){ // bu method bana shape uretecek
+    public Shape getShape(String shapeType){ // bu method shape objelerini uretecek
         
         if (shapeType==null){
             return null;

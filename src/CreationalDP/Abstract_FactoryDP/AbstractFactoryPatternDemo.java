@@ -16,6 +16,7 @@ public class AbstractFactoryPatternDemo {
 
 
 
+
         // renk fabrikasi cagiriliyor
 
         AbstractFactory colorFactory = FactoryProducer.getFactory(FactoryTypes.RENK.name());

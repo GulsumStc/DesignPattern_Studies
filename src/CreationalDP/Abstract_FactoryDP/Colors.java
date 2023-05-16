@@ -4,4 +4,5 @@ public enum Colors {
     KIRMIZI,
     MAVI,
     YESIL;
+
 }

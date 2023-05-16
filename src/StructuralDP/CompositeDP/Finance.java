@@ -9,6 +9,7 @@ public class Finance extends Department{
         return "Finance";
     }
 
+
     @Override
     List<String> getEmployees() {
         return Arrays.asList("F1", "F2", "F3");

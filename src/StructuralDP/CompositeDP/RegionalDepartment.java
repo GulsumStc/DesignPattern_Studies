@@ -18,6 +18,7 @@ public class RegionalDepartment extends Department{
         return childDepartments.stream(). // stream yapida departmanlar geliyor
                 map(Department::getName). // stream departman isimleri geliyor
                 collect(Collectors.joining(", ")); // "Finance, Sales"
+
     }
 
     @Override
@@ -25,5 +26,6 @@ public class RegionalDepartment extends Department{
         return childDepartments.stream().
                 flatMap(d->d.getEmployees().stream()).
                 collect(Collectors.toList());
+
     }
 }

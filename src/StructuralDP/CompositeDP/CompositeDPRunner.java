@@ -16,6 +16,7 @@ public class CompositeDPRunner {
 
         System.out.println(regionalDepartment.getName());
         System.out.println("*************************");
+
         System.out.println(regionalDepartment.getEmployees()); // finance.getEmployees + sales.getEmployess demem gerekiyrdi DP olmadan
 
     }

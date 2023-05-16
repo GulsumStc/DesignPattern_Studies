@@ -9,6 +9,7 @@ public class FactoryProducer {
             return new ShapeFactory();
         }else if (choice.equalsIgnoreCase(FactoryTypes.RENK.name())){
             return new ColorFactory();
+
         }
         return null;
     }

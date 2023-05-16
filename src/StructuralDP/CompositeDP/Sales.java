@@ -13,4 +13,5 @@ public class Sales extends Department{
     List<String> getEmployees() {
         return Arrays.asList("S1", "S2", "S3");
     }
+
 }

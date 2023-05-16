@@ -5,4 +5,5 @@ public class Rectangle implements Shape {
     public void draw() {
         System.out.println("Rectangle objesi icinden draw methodu cagrildi");
     }
+
 }
